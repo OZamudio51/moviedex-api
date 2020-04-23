@@ -3,7 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
-const MOVIES = require('./movies-data-small.json');
+const MOVIES = require('./movies-data.json');
 
 const app = express();
 
